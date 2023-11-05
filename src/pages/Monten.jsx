@@ -4,11 +4,10 @@ import MontenLandingImage from "../images/monten-landing.png";
 import MontenHeader from '../partials/MontenHeader';
 
 function Monten() {
+  const [subscriberEmail, setSubscriberEmail] = React.useState("");
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const subscriberEmail = event.target.email
     //call to the Netlify Function you created
-    
     try {
       await fetch(
         `${process.env.URL}/.netlify/functions/emails/subscribed`,
@@ -66,6 +65,8 @@ function Monten() {
                 type="text"
                 className="w-full max-w-xs border border-gray-300 px-4 py-2 rounded-md"
                 placeholder="Your email"
+                onChange={(event) => setSubscriberEmail(event.target.value)}
+                value={subscriberEmail}
               />
               <button
                 type="submit"
