@@ -44,15 +44,15 @@ function Monten() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/wesley-dowel.appspot.com/o/static%2Fcoupler-ogp.png?alt=media&token=3728ecdc-0407-4d29-8567-fdd9b315138b"
+          content="https://firebasestorage.googleapis.com/v0/b/seewhatgodsays.appspot.com/o/monten-logo.png?alt=media&token=2e12fb88-87b7-48eb-956e-1ffa5485db7c&_gl=1*1l8xaay*_ga*MTkwNDg3MDIxMS4xNjc2ODk3OTE5*_ga_CW55HF8NVT*MTY5OTM3MDA4OS42MC4xLjE2OTkzNzAyNjEuNTkuMC4w"
         />
         <meta
           property="og:url"
-          content="https://www.creativemashimashi.com/platform"
+          content="https://www.creativemashimashi.com/monten"
         />
         <meta
           property="og:description"
-          content="A new platform we created for information providers and receivers."
+          content="A new iOS app we created for learning trending topics."
         />
       </Helmet>
       <div className="flex flex-col min-h-screen overflow-hidden">
