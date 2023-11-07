@@ -39,12 +39,12 @@ function Monten() {
         />
         <meta
           property="og:title"
-          content="Coupler - Create valuable connection"
+          content="Monten - Learn trending topics"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/seewhatgodsays.appspot.com/o/monten-logo.png?alt=media&token=2e12fb88-87b7-48eb-956e-1ffa5485db7c&_gl=1*1l8xaay*_ga*MTkwNDg3MDIxMS4xNjc2ODk3OTE5*_ga_CW55HF8NVT*MTY5OTM3MDA4OS42MC4xLjE2OTkzNzAyNjEuNTkuMC4w"
+          content="https://firebasestorage.googleapis.com/v0/b/seewhatgodsays.appspot.com/o/static%2Fmonten-logo.png?alt=media&token=f3f3ba18-b186-4bce-b21a-bfb8531cbb16&_gl=1*11d8gj1*_ga*MTkwNDg3MDIxMS4xNjc2ODk3OTE5*_ga_CW55HF8NVT*MTY5OTM3MDA4OS42MC4xLjE2OTkzNzA2NTMuMjYuMC4w"
         />
         <meta
           property="og:url"
