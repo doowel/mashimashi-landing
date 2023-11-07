@@ -19,7 +19,7 @@ function Monten() {
           body: JSON.stringify({
             from: "ptang8@bus.illinois.edu",
             to: subscriberEmail,
-            subject: "Great to have you on board!",
+            subject: "ご登録ありがとうございます！",
           }),
         }
       );
