@@ -61,7 +61,7 @@ function Monten() {
         {/*  Page content */}
         <main className="px-6 md:px-36 pt-32 md:pt-52 bg-white flex flex-col xl:flex-row xl:justify-between font-inter">
           <div className="max-w-3xl xl:mr-24">
-            <h1 className="text-4xl md:text-6xl font-bold mb-14">悩んでいる時、 みんなの意見が気にする？</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-14">悩んでいる時、 みんなの意見が気にする？</h1>
             <h2 className="text-xl mb-20">Monten は、好奇心の世界への扉を開き、あなたの興味をそそるものなら何でも、匿名で世間の声を探ります。決断する自信を求めている人も、単純に楽しい時間を求めている人も、Monten は無限の可能性への入り口です。</h2>
             <form className="flex gap-3 flex-col lg:flex-row" onSubmit={handleSubmit}>
               <input
