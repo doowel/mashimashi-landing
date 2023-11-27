@@ -30,32 +30,32 @@ function MontenPrivacyPolicy() {
         <MontenHeader />
         {/*  Page content */}
         <main className="px-6 md:px-36 pt-32 md:pt-52 bg-white flex flex-col xl:flex-row xl:justify-between font-inter">
-          <div class="max-w-screen-lg mx-auto">
-            <h1 class="text-3xl font-bold mb-4">Privacy Policy</h1>
-            <p class="mb-4">
+          <div>
+            <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
+            <p className="mb-4">
               This Privacy Policy describes Our policies and procedures on the
               collection, use and disclosure of Your information when You use
               the Service and tells You about Your privacy rights and how the
               law protects You.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               We use Your Personal data to provide and improve the Service. By
               using the Service, You agree to the collection and use of
               information in accordance with this Privacy Policy. Interpretation
               and Definitions.
             </p>
 
-            <h2 class="text-2xl font-bold mt-6 mb-3">Interpretation</h2>
-            <p class="mb-4">
+            <h2 className="text-2xl font-bold mt-6 mb-3">Interpretation</h2>
+            <p className="mb-4">
               The words of which the initial letter is capitalized have meanings
               defined under the following conditions. The following definitions
               shall have the same meaning regardless of whether they appear in
               singular or in plural.
             </p>
 
-            <h2 class="text-2xl font-bold mt-6 mb-3">Definitions</h2>
-            <p class="mb-4">For the purposes of this Privacy Policy:</p>
-            <ul class="list-disc list-inside mb-4">
+            <h2 className="text-2xl font-bold mt-6 mb-3">Definitions</h2>
+            <p className="mb-4">For the purposes of this Privacy Policy:</p>
+            <ul className="list-disc list-inside mb-4">
               <li>
                 <strong>Account</strong> means a unique account created for You
                 to access our Service or parts of our Service.
@@ -117,20 +117,20 @@ function MontenPrivacyPolicy() {
               </li>
             </ul>
 
-            <h1 class="text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4">
               Collecting and Using Your Personal Data
             </h1>
-            <h2 class="text-2xl font-bold mt-6 mb-3">
+            <h2 className="text-2xl font-bold mt-6 mb-3">
               Types of Data Collected
             </h2>
-            <h3 class="text-xl font-bold mt-6 mb-3">Personal Data</h3>
-            <p class="mb-4">
+            <h3 className="text-xl font-bold mt-6 mb-3">Personal Data</h3>
+            <p className="mb-4">
               While using Our Service, We may ask You to provide Us with certain
               personally identifiable information that can be used to contact or
               identify You. Personally identifiable information may include, but
               is not limited to:
             </p>
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 <strong>Email address</strong>
               </li>
@@ -141,8 +141,8 @@ function MontenPrivacyPolicy() {
                 <strong>Usage Data</strong>
               </li>
             </ul>
-            <h2 class="text-2xl font-bold mt-6 mb-3">Usage Data</h2>
-            <p class="mb-4">
+            <h2 className="text-2xl font-bold mt-6 mb-3">Usage Data</h2>
+            <p className="mb-4">
               Usage Data is collected automatically when using the Service.
               Usage Data may include information such as Your Device's Internet
               Protocol address (e.g. IP address), browser type, browser version,
@@ -158,17 +158,17 @@ function MontenPrivacyPolicy() {
               browser sends whenever You visit our Service or when You access
               the Service by or through a mobile device.
             </p>
-            <h2 class="text-2xl font-bold mt-6 mb-3">
+            <h2 className="text-2xl font-bold mt-6 mb-3">
               Tracking Technologies and Cookiess
             </h2>
-            <p class="mb-4">
+            <p className="mb-4">
               We use Cookies and similar tracking technologies to track the
               activity on Our Service and store certain information. Tracking
               technologies used are beacons, tags, and scripts to collect and
               track information and to improve and analyze Our Service. The
               technologies We use may include:
             </p>
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 <strong>Cookies or Browser Cookies.</strong> A cookie is a small
                 file placed on Your Device. You can instruct Your browser to
@@ -202,7 +202,7 @@ function MontenPrivacyPolicy() {
                 integrity).
               </li>
             </ul>
-            <p class="mb-4">
+            <p className="mb-4">
               Cookies can be "Persistent" or "Session" Cookies. Persistent
               Cookies remain on Your personal computer or mobile device when You
               go offline, while Session Cookies are deleted as soon as You close
@@ -212,15 +212,15 @@ function MontenPrivacyPolicy() {
               </a>
               .
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               We use both Session and Persistent Cookies for the purposes set
               out below:
             </p>
             <li>
               <strong>Necessary / Essential Cookies</strong>
-              <p class="mb-4">Type: Session Cookies</p>
-              <p class="mb-4">Administered by: Us </p>
-              <p class="mb-4">
+              <p className="mb-4">Type: Session Cookies</p>
+              <p className="mb-4">Administered by: Us </p>
+              <p className="mb-4">
                 Purpose: These Cookies are essential to provide You with
                 services available through the Website and to enable You to use
                 some of its features. They help to authenticate users and
@@ -231,18 +231,18 @@ function MontenPrivacyPolicy() {
             </li>
             <li>
               <strong>Cookies Policy / Notice Acceptance Cookies</strong>
-              <p class="mb-4">Type: Persistent Cookies</p>
-              <p class="mb-4">Administered by: Us</p>
-              <p class="mb-4">
+              <p className="mb-4">Type: Persistent Cookies</p>
+              <p className="mb-4">Administered by: Us</p>
+              <p className="mb-4">
                 Purpose: These Cookies identify if users have accepted the use
                 of cookies on the Website.
               </p>
             </li>
             <li>
               <strong>Functionality Cookies</strong>
-              <p class="mb-4">Type: Persistent Cookies</p>
-              <p class="mb-4">Administered by: Us</p>
-              <p class="mb-4">
+              <p className="mb-4">Type: Persistent Cookies</p>
+              <p className="mb-4">Administered by: Us</p>
+              <p className="mb-4">
                 Purpose: These Cookies allow us to remember choices You make
                 when You use the Website, such as remembering your login details
                 or language preference. The purpose of these Cookies is to
@@ -251,20 +251,20 @@ function MontenPrivacyPolicy() {
                 Website.
               </p>
             </li>
-            <p class="mb-4">
+            <p className="mb-4">
               For more information about the cookies we use and your choices
               regarding cookies, please visit our Cookies Policy or the Cookies
               section of our Privacy Policy.
             </p>
 
-            <h2 class="text-2xl font-bold mt-6 mb-3">
+            <h2 className="text-2xl font-bold mt-6 mb-3">
               Use of Your Personal Data
             </h2>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company may use Personal Data for the following purposes:
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 <strong>To provide and maintain our Service</strong>, including
                 to monitor the usage of our Service.
@@ -318,11 +318,11 @@ function MontenPrivacyPolicy() {
                 services, marketing and your experience.
               </li>
             </ul>
-            <p class="mb-4">
+            <p className="mb-4">
               We may share Your personal information in the following
               situations:
             </p>
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 <strong>With Service Providers:</strong> We may share Your
                 personal information with Service Providers to monitor and
@@ -365,10 +365,10 @@ function MontenPrivacyPolicy() {
               </li>
             </ul>
 
-            <h2 class="text-2xl font-bold mt-6 mb-3">
+            <h2 className="text-2xl font-bold mt-6 mb-3">
               Retention of Your Personal Data
             </h2>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company will retain Your Personal Data only for as long as is
               necessary for the purposes set out in this Privacy Policy. We will
               retain and use Your Personal Data to the extent necessary to
@@ -376,7 +376,7 @@ function MontenPrivacyPolicy() {
               to retain your data to comply with applicable laws), resolve
               disputes, and enforce our legal agreements and policies.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company will also retain Usage Data for internal analysis
               purposes. Usage Data is generally retained for a shorter period of
               time, except when this data is used to strengthen the security or
@@ -384,10 +384,10 @@ function MontenPrivacyPolicy() {
               obligated to retain this data for longer time periods.
             </p>
 
-            <h2 class="text-2xl font-bold mt-6 mb-3">
+            <h2 className="text-2xl font-bold mt-6 mb-3">
               Transfer of Your Personal Data
             </h2>
-            <p class="mb-4">
+            <p className="mb-4">
               Your information, including Personal Data, is processed at the
               Company's operating offices and in any other places where the
               parties involved in the processing are located. It means that this
@@ -396,11 +396,11 @@ function MontenPrivacyPolicy() {
               governmental jurisdiction where the data protection laws may
               differ than those from Your jurisdiction.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               Your consent to this Privacy Policy followed by Your submission of
               such information represents Your agreement to that transfer.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company will take all steps reasonably necessary to ensure
               that Your data is treated securely and in accordance with this
               Privacy Policy and no transfer of Your Personal Data will take
@@ -408,18 +408,18 @@ function MontenPrivacyPolicy() {
               controls in place including the security of Your data and other
               personal information.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company shall, at the choice of the Customer, delete, access
               or transfer all the Customer Personal Data to the Customer after
               the end of the provision of Services, and deletes existing copies
               unless applicable law requires storage of the Customer Personal
               Data.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company's objectives and principles in relation to Data
               Retention are to:
             </p>
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 Set out limits for the retention of personal data and ensure
                 they are complied with
@@ -442,31 +442,31 @@ function MontenPrivacyPolicy() {
                 information
               </li>
             </ul>
-            <h2 class="text-2xl font-bold mt-6 mb-3">
+            <h2 className="text-2xl font-bold mt-6 mb-3">
               Disclosure of Your Personal Data
             </h2>
-            <h3 class="text-xl font-bold mt-6 mb-3">Business Transactions</h3>
-            <p class="mb-4">
+            <h3 className="text-xl font-bold mt-6 mb-3">Business Transactions</h3>
+            <p className="mb-4">
               If the Company is involved in a merger, acquisition or asset sale,
               Your Personal Data may be transferred. We will provide notice
               before Your Personal Data is transferred and becomes subject to a
               different Privacy Policy.
             </p>
-            <h3 class="text-xl font-bold mt-6 mb-3">Law enforcement</h3>
-            <p class="mb-4">
+            <h3 className="text-xl font-bold mt-6 mb-3">Law enforcement</h3>
+            <p className="mb-4">
               Under certain circumstances, the Company may be required to
               disclose Your Personal Data if required to do so by law or in
               response to valid requests by public authorities (e.g. a court or
               a government agency).
             </p>
-            <h3 class="text-xl font-bold mt-6 mb-3">
+            <h3 className="text-xl font-bold mt-6 mb-3">
               Other legal requirements
             </h3>
-            <p class="mb-4">
+            <p className="mb-4">
               The Company may disclose Your Personal Data in the good faith
               belief that such action is necessary to:
             </p>
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>Comply with a legal obligation</li>
               <li>Protect and defend the rights or property of the Company</li>
               <li>
@@ -479,18 +479,18 @@ function MontenPrivacyPolicy() {
               </li>
               <li>Protect against legal liability</li>
             </ul>
-            <h3 class="text-xl font-bold mt-6 mb-3">
+            <h3 className="text-xl font-bold mt-6 mb-3">
               Security of Your Personal Data
             </h3>
-            <p class="mb-4">
+            <p className="mb-4">
               The security of Your Personal Data is important to Us, but
               remember that no method of transmission over the Internet, or
               method of electronic storage is 100% secure. While We strive to
               use commercially acceptable means to protect Your Personal Data,
               We cannot guarantee its absolute security.
             </p>
-            <h1 class="text-3xl font-bold mb-4">Children's Privacy</h1>
-            <p class="mb-4">
+            <h1 className="text-3xl font-bold mb-4">Children's Privacy</h1>
+            <p className="mb-4">
               Our Service does not address anyone under the age of 13. We do not
               knowingly collect personally identifiable information from anyone
               under the age of 13. If You are a parent or guardian and You are
@@ -500,65 +500,65 @@ function MontenPrivacyPolicy() {
               parental consent, We take steps to remove that information from
               Our servers.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               If We need to rely on consent as a legal basis for processing Your
               information and Your country requires consent from a parent, We
               may require Your parent's consent before We collect and use that
               information.
             </p>
-            <h1 class="text-3xl font-bold mb-4">Links to Other Websites</h1>
-            <p class="mb-4">
+            <h1 className="text-3xl font-bold mb-4">Links to Other Websites</h1>
+            <p className="mb-4">
               Our Service may contain links to other websites that are not
               operated by Us. If You click on a third party link, You will be
               directed to that third party's site. We strongly advise You to
               review the Privacy Policy of every site You visit.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               We have no control over and assume no responsibility for the
               content, privacy policies or practices of any third party sites or
               services.
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4">
               Changes to this Privacy Policy
             </h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               We may update Our Privacy Policy from time to time. We will notify
               You of any changes by posting the new Privacy Policy on this page.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               We will let You know via email and/or a prominent notice on Our
               Service, prior to the change becoming effective and update the
               "Last updated" date at the top of this Privacy Policy.
             </p>
-            <p class="mb-4">
+            <p className="mb-4">
               You are advised to review this Privacy Policy periodically for any
               changes. Changes to this Privacy Policy are effective when they
               are posted on this page.
             </p>
-            <h2 class="text-2xl font-bold mt-6 mb-3">Contact Us</h2>
-            <p class="mb-4">
+            <h2 className="text-2xl font-bold mt-6 mb-3">Contact Us</h2>
+            <p className="mb-4">
               If you have any questions about this Privacy Policy, You can
               contact us:
             </p>
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 By email:{" "}
                 <a
                   href="mailto:creativemashimashi@gmail.com"
-                  class="text-blue-600 hover:text-blue-800"
+                  className="text-blue-600 hover:text-blue-800"
                 >
                   creativemashimashi@gmail.com
                 </a>
               </li>
             </ul>
 
-            <hr class="my-8" />
+            <hr className="my-8" />
 
-            <h1 class="text-3xl font-bold mb-4">プライバシーポリシー</h1>
+            <h1 className="text-3xl font-bold mb-4">プライバシーポリシー</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               このプライバシーポリシーは、サービスを利用する際のお客様の情報の収集、利用、開示に関す
               る弊社のポリシーと手続きについて説明し、お客様のプライバシー権利についてお知らせし、法
               律がお客様をどのように保護するかについて説明しています。
@@ -566,15 +566,15 @@ function MontenPrivacyPolicy() {
               ことで、お客様はこのプライバシーポリシーに従って情報の収集と使用に同意するものとします。{" "}
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">解釈と定義</h1>
+            <h1 className="text-3xl font-bold mb-4">解釈と定義</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               解釈
               最初の文字が大文字である単語は、以下の条件の下で定義される意味を持ちます。次の定義は、
               それらが単数形でも複数形でも表示されるかどうかにかかわらず、同じ意味を持ちます。定義このプライバシーポリシーの目的のために:{" "}
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 アカウント:お客様が弊社のサービスまたはサービスの一部にアクセスするために作成され
                 た一意のアカウントを指します。{" "}
@@ -624,21 +624,21 @@ function MontenPrivacyPolicy() {
               <li></li>
             </ul>
 
-            <p class="mb-4">
+            <p className="mb-4">
               ⠀当社のサービスを利用する際に、お客様に連絡または識別に使用できる特定の個人情報の提供を
               お願いする場合があります。個人を特定できる情報には、以下に限定されないものの、次のもの
               が含まれる可能性があります:{" "}
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>メールアドレス </li>
               <li>名および姓 </li>
               <li>電話番号</li>
             </ul>
 
-            <h1 class="text-3xl font-bold mb-4">利用データ</h1>
+            <h1 className="text-3xl font-bold mb-4">利用データ</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               利用データは、サービスの使用時に自動的に収集されます。
               利用データには、お客様のデバイスのインターネットプロトコルアドレス(例:IPアドレス)、ブ
               ラウザのタイプ、ブラウザのバージョン、当社のサービスの訪問ページ、訪問の日時、そのページ
@@ -658,7 +658,7 @@ function MontenPrivacyPolicy() {
               術には以下が含まれる可能性があります:{" "}
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 クッキーまたはブラウザクッキー:クッキーはデバイスに配置される小さなファイルです。
                 ブラウザに対してすべてのクッキーを拒否するか、クッキーが送信される際に通知するよう
@@ -685,7 +685,7 @@ function MontenPrivacyPolicy() {
               </li>
             </ul>
 
-            <p class="mb-4">
+            <p className="mb-4">
               ⠀クッキーの種類
               クッキーは「永続的な」または「セッション」クッキーに分類されます。永続的なクッキーは、
               オフラインになってもお客様のパーソナルコンピュータまたはモバイルデバイスに残りますが、
@@ -694,10 +694,10 @@ function MontenPrivacyPolicy() {
               当社は以下の目的のためにセッションおよび永続的なクッキーの両方を使用しています:{" "}
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 必須 / エッセンシャルクッキー
-                <ul class="list-disc list-inside mb-4">
+                <ul className="list-disc list-inside mb-4">
                   <li>タイプ: セッションクッキー </li>
                   <li>管理者: 当社 </li>
                   <li>
@@ -712,7 +712,7 @@ function MontenPrivacyPolicy() {
               </li>
               <li>
                 クッキーポリシー / 注意受け入れクッキー
-                <ul class="list-disc list-inside mb-4">
+                <ul className="list-disc list-inside mb-4">
                   <li>タイプ: 永続的なクッキー </li>
                   <li>管理者: 当社 </li>
                   <li>
@@ -724,7 +724,7 @@ function MontenPrivacyPolicy() {
               </li>
               <li>
                 機能クッキー
-                <ul class="list-disc list-inside mb-4">
+                <ul className="list-disc list-inside mb-4">
                   <li>タイプ: 永続的なクッキー </li>
                   <li>管理者: 当社 </li>
                   <li>
@@ -743,13 +743,13 @@ function MontenPrivacyPolicy() {
               </li>
             </ul>
 
-            <h1 class="text-3xl font-bold mb-4">個人データの利用</h1>
+            <h1 className="text-3xl font-bold mb-4">個人データの利用</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               会社は、個人データを以下の目的で使用することがあります:
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>
                 サービスの提供と維持、サービスの利用状況の監視を含む。{" "}
               </li>
@@ -816,9 +816,9 @@ function MontenPrivacyPolicy() {
               </li>
             </ul>
 
-            <h1 class="text-3xl font-bold mb-4">個人データの保持</h1>
+            <h1 className="text-3xl font-bold mb-4">個人データの保持</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               会社は、このプライバシーポリシーで述べられた目的のために必要な限りの期間だけ、お客様の
               個人データを保持します。法的義務を遵守する必要がある場合(たとえば、適用される法律を遵
               守するためにデータを保持する必要がある場合)、紛争の解決、および法的契約とポリシーの執
@@ -828,14 +828,14 @@ function MontenPrivacyPolicy() {
               的に長期間データを保持する法的義務がある場合を除きます。
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">個人データの転送</h1>
+            <h1 className="text-3xl font-bold mb-4">個人データの転送</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               お客様の情報、個人データを含むものは、会社の運営拠点および処理に関与する他の場所で処理
               されます。これは、この情報がお客様の属する州、省、国、またはその他の政府管轄区域とは異{" "}
             </p>
 
-            <p class="mb-4">
+            <p className="mb-4">
               ⠀なる場所にあるコンピュータに転送および維持される可能性があることを意味します。データ保
               護法がお客様の管轄区域とは異なる可能性があります。
               このプライバシーポリシーに同意し、その情報を提出することに続くお客様の同意は、その転送
@@ -849,7 +849,7 @@ function MontenPrivacyPolicy() {
               データ保持に関する会社の目的と原則は以下のとおりです:{" "}
             </p>
 
-            <ul class="list-disc list-inside mb-4">
+            <ul className="list-disc list-inside mb-4">
               <li>個人データの保持期間を定め、これを遵守する </li>
               <li>GDPRに基づくデータ主体の権利と義務を完全に遵守する </li>
               <li>
@@ -864,22 +864,22 @@ function MontenPrivacyPolicy() {
               </li>
               <li>事業取引</li>
               <li>
-                <p class="mb-4">
+                <p className="mb-4">
                   会社が合併、買収、または資産の売却に関与する場合、お客様の個人データが転送される可能性
                   があります。お客様の個人データが転送され、異なるプライバシーポリシーの対象となる前にお
                   知らせします。{" "}
                 </p>
 
-                <h1 class="text-3xl font-bold mb-4">法執行機関</h1>
+                <h1 className="text-3xl font-bold mb-4">法執行機関</h1>
 
-                <p class="mb-4">
+                <p className="mb-4">
                   一定の状況下で、会社は法に従うか、公権力(たとえば、裁判所や政府機関)からの妥当な要求
                   に応じて、お客様の個人データを開示する必要がある場合があります。{" "}
                 </p>
 
-                <h1 class="text-3xl font-bold mb-4">その他の法的要件</h1>
+                <h1 className="text-3xl font-bold mb-4">その他の法的要件</h1>
 
-                <p class="mb-4">
+                <p className="mb-4">
                   会社は、次のような状況で、お客様の個人データを善意の信念に基づいて開示する可能性があります:
                 </p>
               </li>
@@ -894,17 +894,17 @@ function MontenPrivacyPolicy() {
               </li>
             </ul>
 
-            <h1 class="text-3xl font-bold mb-4">個人データのセキュリティ</h1>
+            <h1 className="text-3xl font-bold mb-4">個人データのセキュリティ</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               個人データのセキュリティは弊社にとって重要ですが、インターネットを介した伝送方法や電子
               的な保存方法が100%安全であることを覚えておいてください。弊社は個人データを保護するために商業的に受け入れられる手段を尽くしていますが、その絶対的なセキュリティを保証すること
               はできません。
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">子どものプライバシー</h1>
+            <h1 className="text-3xl font-bold mb-4">子どものプライバシー</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               弊社のサービスは、13歳未満の個人を対象としていません。われわれは故意に13歳未満の個人か
               ら個人を特定できる情報を収集しません。もし、親または保護者であり、お子様が弊社に個人
               データを提供したことを知っている場合は、お問い合わせください。もし、13歳未満の個人から
@@ -914,11 +914,11 @@ function MontenPrivacyPolicy() {
               合、その情報を収集および利用する前にお客様の親の同意を必要とすることがあります。{" "}
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4">
               他のウェブサイトへのリンク
             </h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               弊社のサービスには、弊社が運営していない他のウェブサイトへのリンクが含まれている場合が
               あります。サードパーティのリンクをクリックすると、そのサードパーティのサイトに移動しま
               す。すべての訪れるサイトのプライバシーポリシーを確認することを強くお勧めします。
@@ -926,11 +926,11 @@ function MontenPrivacyPolicy() {
               御せず、一切の責任を負いません。
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4">
               このプライバシーポリシーの変更
             </h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               弊社は定期的にプライバシーポリシーを更新する場合があります。新しいプライバシーポリシーを
               掲載することで変更をお知らせします。
               変更が有効となる前に、電子メールおよび/またはサービス上で目立つ通知を行い、このプライバ
@@ -939,13 +939,13 @@ function MontenPrivacyPolicy() {
               の変更は、このページに掲載された時点で有効となります。{" "}
             </p>
 
-            <h1 class="text-3xl font-bold mb-4">お問い合わせ</h1>
+            <h1 className="text-3xl font-bold mb-4">お問い合わせ</h1>
 
-            <p class="mb-4">
+            <p className="mb-4">
               このプライバシーポリシーに関するご質問がある場合は、以下からお問い合わせいただけます:{" "}
             </p>
 
-            <p class="mb-4">メール:creativemashimashi@gmail.com </p>
+            <p className="mb-4">メール:creativemashimashi@gmail.com </p>
           </div>
         </main>
       </div>
