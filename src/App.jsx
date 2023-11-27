@@ -13,6 +13,7 @@ import Coupler from "./pages/Coupler";
 import Monten from "./pages/Monten";
 import { Helmet } from "react-helmet";
 import MontenPrivacyPolicy from "./pages/MontenPrivacyPolicy";
+import MontenEULA from "./pages/MontenEULA";
 
 function App() {
   const location = useLocation();
@@ -54,7 +55,11 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/platform" element={<Coupler />} />
         <Route path="/monten" element={<Monten />} />
-        <Route path="/monten-privacy-policy" element={<MontenPrivacyPolicy />} />
+        <Route
+          path="/monten-privacy-policy"
+          element={<MontenPrivacyPolicy />}
+        />
+        <Route path="/monten-eula" element={<MontenEULA />} />
       </Routes>
     </>
   );
