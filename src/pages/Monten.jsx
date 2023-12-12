@@ -63,20 +63,23 @@ function Monten() {
           <div className="max-w-3xl xl:mr-24">
             <h1 className="text-4xl md:text-5xl font-bold mb-14">悩んでいる時、 みんなの意見が気にする？</h1>
             <h2 className="text-xl mb-20">Monten は、好奇心の世界への扉を開き、あなたの興味をそそるものなら何でも、匿名で世間の声を探ります。決断する自信を求めている人も、単純に楽しい時間を求めている人も、Monten は無限の可能性への入り口です。</h2>
-            <form className="flex gap-3 flex-col lg:flex-row" onSubmit={handleSubmit}>
-              <input
+            <form className="flex gap-3 flex-col justify-end lg:flex-row" onSubmit={handleSubmit}>
+              {/* <input
                 type="text"
                 className="w-full border border-gray-300 pl-4 py-2 rounded-md"
                 placeholder="Your email"
                 onChange={(event) => setSubscriberEmail(event.target.value)}
                 value={subscriberEmail}
-              />
-              <button
+              /> */}
+              {/* <button
                 type="submit"
                 className="text-white w-full lg:w-36 h-11 rounded-3xl bg-gradient-to-r from-blue-400 via-purple-600 to-pink-500"
               >
                 Check it out
-              </button>
+              </button> */}
+              <a href="https://apps.apple.com/jp/app/monten/id6446840865" target="_blank" rel="noopener noreferrer" className="text-white w-full lg:w-36 h-11 rounded-3xl bg-gradient-to-r from-blue-400 via-purple-600 to-pink-500 flex justify-center items-center">
+                Check it out
+              </a>
             </form>
           </div>
           <div className="">
