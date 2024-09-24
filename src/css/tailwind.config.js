@@ -120,8 +120,16 @@ module.exports = {
       },
       animation: {
         float: "float 3s ease-in-out infinite",
+        'gradient-move': 'bg-gradient-animation 16s ease infinite',
       },
       keyframes: {
+        'bg-gradient-animation': {
+          '0%': { 'background-position': '0% 50%', 'background-size': '200% 200%', 'background': 'linear-gradient(135deg, #93c5fd, #c084fc)' },
+          '25%': { 'background-position': '50% 100%', 'background-size': '250% 250%', 'background': 'linear-gradient(135deg, #c084fc, #fca5a5)' },
+          '50%': { 'background-position': '100% 50%', 'background-size': '300% 300%', 'background': 'linear-gradient(135deg, #fca5a5, #fdba74)' },
+          '75%': { 'background-position': '50% 0%', 'background-size': '250% 250%', 'background': 'linear-gradient(135deg, #fdba74, #93c5fd)' },
+          '100%': { 'background-position': '0% 50%', 'background-size': '200% 200%', 'background': 'linear-gradient(135deg, #93c5fd, #c084fc)' },
+        },
         float: {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-5%)" },

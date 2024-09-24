@@ -121,6 +121,14 @@ const NavLinks = () => (
         Contact us
       </a>
     </li>
+    <li>
+      <a
+        className="font-bold hover:opacity-50 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+        href="/monten"
+      >
+        Monten
+      </a>
+    </li>
   </>
 );
 
