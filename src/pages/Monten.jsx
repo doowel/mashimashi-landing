@@ -118,7 +118,7 @@ function Monten() {
                 </div>
                 <span className="relative ml-4 text-indigo-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
                   <p className="text-white font-semibold sm:inline">Jasper Wu</p>
-                  <p className="sm:inline ml-2">UXR at Google</p>
+                  <p className="sm:inline ml-2">Founder of Mashimashi</p>
                 </span>
               </cite>
             </blockquote>
